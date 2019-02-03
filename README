@@ -1,1 +1,7 @@
-This C code is written to run on a TI TM4C123G Launchpad Micro-controller.  Nothing is done inside main besides initiallizing ports and then everything else in the software is done by interrupts.  
+This C code is written to run on a TI TM4C123G Launchpad Micro-controller.  Nothing is done inside main besides initiallizing ports and then everything else in the software is done by interrupts.
+
+There is code written to interface with and ultrasonic sensor by sending a trigger signal and then timing the response signal from the ultrasonic device to determine distance. 
+
+There is code written to use the ADC on the TI Launchpad in order to read voltage values from a photo resistor and determine whether it is light or dark near the device.  
+
+There is code written to set up two of the UARTs on the TI Launchpad. One of these UARTs interfaces with a bluetooth module and allows for data to transmitted from the bluetooth module at the Micro-controller to a serial terminal on my computer.  There is a second UART configured to send the same data but via serial communication to a second TI Launchpad which uses the information to trigger LED's on the second board.  

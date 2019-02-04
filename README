@@ -4,4 +4,4 @@ There is code written to interface with an ultrasonic sensor by sending a trigge
 
 There is code written to use the ADC on the TI Launchpad in order to read voltage values from a photo resistor and determine whether it is light or dark near the device.  
 
-There is code written to set up two of the UARTs on the TI Launchpad. One of these UARTs interfaces with a bluetooth module and allows for data to transmitted from the bluetooth module at the Micro-controller to a serial terminal on my computer.  There is a second UART configured to send the same data but via serial communication to a second TI Launchpad which uses the information to trigger LED's on the second board.  
+There is code written to set up two of the UARTs on the TI Launchpad. One of these UARTs interfaces with a bluetooth module and allows for data to be transmitted from the bluetooth module at the Micro-controller to a serial terminal on a computer.  There is a second UART configured to send the same data but via serial communication to a second TI Launchpad which uses the information to trigger LED's on the second board.  
